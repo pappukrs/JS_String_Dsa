@@ -1,7 +1,10 @@
 
 function runProgram(input) {
     // Write code here
-    console.log(input)
+    input = input.split('\n');
+    const length = input[0];
+    const str = input[1];
+    console.log(str)
   }
   
   if (process.env.USER === "") {
@@ -24,4 +27,3 @@ function runProgram(input) {
       process.exit(0);
     });
   }
-  
